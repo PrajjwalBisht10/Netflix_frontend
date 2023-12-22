@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="netflix.js"></script>
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .welcome-message {
+            margin-top: 100px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .redirect-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="welcome-message">
+        <h1>Welcome to our Website!</h1>
+        <p>Thank you for signing up.</p>
+        <button class="redirect-button" onclick="redirectToNetflix()">Continue to Netflix</button>
+    </div>
+
+    <script>
+        function redirectToNetflix() {
+            window.location.href = "./netflix2.html"; // Redirect to Netflix website
+        }
+    </script>
+</body>
+
+</html>
